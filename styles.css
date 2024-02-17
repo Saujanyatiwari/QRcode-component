@@ -2,16 +2,47 @@ body{
     background-color: hsl(212, 45%, 89%);
 }
 main{
-    position: flex;
+    display: flex;
     justify-content: center;
 }
 .box{
     box-sizing: content-box;
     background-color: white;
-    position: flex;
+    display: flex;
     justify-content: center;
-    padding-left: 5cm;
-    padding-right: 5cm;
-    padding-top: 10cm;
-    padding-top: 10cm;
+    border-radius: 0.5cm;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+    width: 8cm;
+    height: 11cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 7cm;
+    
 }
+img{
+    /* margin:1cm; */
+    width:20cm;
+    border-radius: 0.5cm;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    bottom:6.5cm;
+    
+}
+/* .heading{
+    position: relative;
+    bottom: 2.5cm ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 700;
+}
+.para{
+    display: flex;
+    text-align: center;
+    align-items: center;
+} */
