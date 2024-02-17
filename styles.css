@@ -1,0 +1,17 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+main{
+    position: flex;
+    justify-content: center;
+}
+.box{
+    box-sizing: content-box;
+    background-color: white;
+    position: flex;
+    justify-content: center;
+    padding-left: 5cm;
+    padding-right: 5cm;
+    padding-top: 10cm;
+    padding-top: 10cm;
+}
